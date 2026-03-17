@@ -45,7 +45,7 @@ Durante o desenvolvimento deste projeto, foram aplicados conceitos como:
 
 ## 📸 Preview
 
-(Adicione aqui um print ou gif do jogo rodando)
+![Preview do Projeto](preview.png)
 
 ---
 
