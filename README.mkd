@@ -1,131 +1,64 @@
-1. **ATIVIDADE PRINCIPAL 2** **PRINCIPAL (700XP)** 
+# 🎮 Jogo da Forca (Hangman)
 
-   
+Este projeto consiste em uma aplicação web interativa do clássico jogo da forca, desenvolvida utilizando HTML, CSS e JavaScript.
 
-   Fazer um jogo da forca seguindo a lógica explicada em sala, porém com tudo pelo DOM;
+O objetivo do jogo é adivinhar a palavra secreta com base nas letras sugeridas, antes de atingir o número máximo de erros.
 
-   
+---
 
-   O usuário deve poder dizer se ele quer jogar novamente ou não; 
+## 🚀 Funcionalidades
 
-   
+- Seleção aleatória de palavras
+- Entrada de letras pelo usuário
+- Contagem de erros
+- Exibição do progresso da palavra
+- Validação de letras repetidas
+- Feedback visual de acertos e erros
 
-   Ter uma conjunto de palavras possíveis (cada uma com um tema associado ou tudo dentro do mesmo tema);
+---
 
-   
+## 🛠 Tecnologias utilizadas
 
-   Fazer todas as validações necessárias (prever erros do usuário, como digitar um número ao invés de uma letra, dentre outros); 
+- HTML
+- CSS
+- JavaScript
 
-   
+---
 
-   As palavras possíveis da forca devem vir de alguma API externa ou um arquivo TXT/JSON contendo a lista de palavras (se sentirem dúvida, podem me procurar; vou ensinar o TXT/JSON em sala); 
+## 🎯 Objetivo do projeto
 
-   
+Este projeto foi desenvolvido com o objetivo de praticar conceitos fundamentais de lógica de programação, manipulação do DOM e interatividade com o usuário.
 
-2. **EXTRA (300XP)** - O jogo deve possuir algum tipo de pontuação; - Deve existir um teclado virtual, feito usando elementos HTML
+---
 
-   ​    Jogo da Forca
-   
-   ---------------------------------------------------------------------------
-   
-   
-   
-   Pedir para o usuário digitar uma letra (mostrar também quais foram *as* letras que ele já usou)
-   
-   Verificar se esta letra já foi usada
-   
-   Verificar se esta letra NÃO É UMA LETRA
-   
-   Número
-   
-   Não digitou nada (undefined)
-   
-   Palavra (pode ser entendido como o chute da palavra toda)
-   
-   "Opa, palavra digitada não equivale à palavra sorteada"
-   
-   Permitir que o cara digite algo para reiniciar
-   
-   "Parabéns, você adivinhou a palavra sorteada"
-   
-    ----> Verficar se esta letra pertence à palavra sorteada <----
-   
-   Se sim, mostra como a palavra está por enquanto (LETRA PERTENCE À PALAVRA)
-   
-   Se não, mostra como a palavra está por enquanto e mostra a forca (LETRA NÃO PERTENCE À PALAVRA)
-   
-   Caso o usuário já tenha descoberto a palavra toda, dê os parabéns!
-   
-   Caso o usuário tenha perdido todas *as* partes do corpo na forca, já elvis...
-   
-   De um jeito ou de outro permitir que o usuário REINICIE O JOGO DO ZERO
-   
-   Sortear outra palavra
-   
-   Repete o loop principal
-   
-   (...)
-   
-   
-   
-   OBS1.: Existirá um looping externo (referente à partida, ou seja, à nova palavra)
-   
-   e um looping interno (referente ao jogo principal, no qual vai estar toda a lógica de verificação e casos possíveis)
-   
-   OBS2.: SEMPRE QUE POSSÍVEL mostrar *as* letras já usadas e a forca em si
-   
-   
-   
-   Exemplo de código de validação no jogo da forca
-   
-   let letrasUsadas = ['A', 'E', 'O'];
-   
-   let letra = prompt("Digite a letra desejada:");
-   
-   *while*(letrasUsadas.includes(letra)) {
-   
-   letra = prompt("Letra inválida!!! Digite a letra novamente:");
-   
-   }
-   
-   
-   
-   console.log("Letra válida: ", letra);
-   
-   
-   
-   -------------------------------------
-   
-   3 - *Layout Trabalho:*
-   
-   Usar site racha cuca e encontro modelo forca;
-   
-   Procurar modelo de forca para o tema;
-   
-   Tema da forca: Países.
-   
-   Placar: Iniciando com X  pontos e tendo perdas de Y pontos ao errar letras;
-   
-   Deixar a forca na tela;
-   
-   Serão 6 tentativas;
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
+## 🧠 Aprendizados
+
+Durante o desenvolvimento deste projeto, foram aplicados conceitos como:
+
+- Estruturas condicionais
+- Arrays e manipulação de strings
+- Eventos em JavaScript
+- Manipulação do DOM
+- Lógica de jogos
+
+---
+
+## 📸 Preview
+
+(Adicione aqui um print ou gif do jogo rodando)
+
+---
+
+## ▶️ Como executar o projeto
+
+1. Clone este repositório
+2. Abra o arquivo `index.html` no navegador
+
+---
+
+## 📌 Melhorias futuras
+
+- Adicionar níveis de dificuldade
+- Implementar placar
+- Melhorar interface gráfica
+- Adicionar suporte a dispositivos móveis
