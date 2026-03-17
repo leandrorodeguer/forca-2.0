@@ -2,41 +2,36 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Forca</title>
     <link rel="stylesheet" href="style.css">
-    <title>Jogo da Forca 2</title>
 </head>
-<body>   
-    <p id="palavra">Clique em iniciar</p>
-    <section>
-        <h1>Jogo da Forca 2.0</h1>
-        <div>
-            <input id="iniciar" type="button" value="INICIAR" onclick="iniciar()">
-        </div>
-        <div>
-        <img id="foto__forca" src="imagens/forca.jpg" alt="Forca" width="400px">
-            <span id="palavra__secreta">Aqui fica a palavra oculta</span>
-        </div>
-        <div>
-            <input id="dica" type="button" value="DICA" onclick="pista()">
-        </div>
-        <div>
-            <span id="teclado__virtual">Aqui ficará o teclado</span>
-        </div>
-         <div>
-            <input id="reset" type="button" value="RESET" onclick="resetar()">
-        </div>
-    </section>
+<body>
 
-<script src="script.js"></script>
+    <div class="container">
+        <h1>🎯 Jogo da Forca</h1>
 
+        <p class="instrucao">
+            Digite letras no teclado para jogar
+        </p>
 
-  
+        <div id="palavra">Clique em iniciar</div>
+
+        <div class="info">
+            <p id="erros">Erros: 0</p>
+            <p id="letras-erradas">Letras erradas:</p>
+        </div>
+
+        <div class="botoes">
+            <button onclick="iniciar()">Iniciar</button>
+            <button onclick="resetar()">Reiniciar</button>
+            <button onclick="pista()">Pista</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
 </body>
-
-<script>
-
+</html>
 
 
 
