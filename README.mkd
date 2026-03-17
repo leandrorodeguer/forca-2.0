@@ -45,7 +45,7 @@ Durante o desenvolvimento deste projeto, foram aplicados conceitos como:
 
 ## 📸 Preview
 
-![Preview do Projeto](preview.png)
+![Preview](imagens/preview.png)
 
 ---
 
